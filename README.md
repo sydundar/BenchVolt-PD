@@ -4,8 +4,9 @@
 # BenchVolt-PD
 BenchVolt PD is an open-source, USB-C powered multi-channel lab power supply delivering up to 100 W. Features 5 outputs (0 V–32 V), STM32 control, USB-PD, low-noise LDOs, and a Python GUI. Compact, portable, and perfect for makers and engineers.
 
- <img width="1370" height="885" alt="image" src="https://github.com/user-attachments/assets/c5a5bef1-8a05-4daa-b570-c7627bd95224" />
-
+<img width="1370"
+     alt="BenchVolt PD Block Diagram"
+     src="./Schematics/BlockDiagram_r3.svg" />
 
 **How It Works;**
 When **BenchVolt PD** powered on, all regulators and converters start in the **disabled state**. The STM32 microcontroller first powers up and performs safety checks by monitoring **temperature, current, and voltage**. It then **enables** the DC-DC converters, followed by the linear regulators in sequence.
