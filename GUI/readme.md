@@ -6,6 +6,13 @@ using a simple SCPI-style command set, and provides a GUI for setting
 voltages, PDO profiles, output channel control, waveform/ARB upload,
 and firmware updates via the bootloader protocol.
 
+## Downloads
+
+Prebuilt executables are attached to the [v1.0 release](https://github.com/sydundar/BenchVolt-PD/releases/tag/v1.0) — no Python install needed:
+
+- 🐧 [BenchVolt-PD-linux.tar.gz](https://github.com/sydundar/BenchVolt-PD/releases/download/v1.0/BenchVolt-PD-linux.tar.gz) — Linux (extract and run)
+- 🪟 [BenchVolt-PD.exe](https://github.com/sydundar/BenchVolt-PD/releases/download/v1.0/BenchVolt-PD.exe) — Windows
+
 ## Contents
 
 | File                     | Purpose                                             |
@@ -14,7 +21,8 @@ and firmware updates via the bootloader protocol.
 | `benchvolt_remote.py`     | Serial/SCPI communication layer with the STM32        |
 | `BenchVolt-PD.spec`       | PyInstaller build spec (used for both Linux & Windows) |
 | `build_windows.bat`       | One-click Windows build script                        |
-| `BenchVolt-PD-linux.tar.gz` | Prebuilt Linux executable                            |
+| `BenchVolt-PD-linux.tar.gz` | Prebuilt Linux executable (also on the Releases page) |
+| `BenchVolt-PD.exe`        | Prebuilt Windows executable (also on the Releases page) |
 
 ## Requirements
 
@@ -60,6 +68,10 @@ Notes:
   ```bash
   sudo usermod -aG dialout $USER
   ```
+
+## Running the prebuilt Windows executable
+
+Download `BenchVolt-PD.exe` from the [v1.0 release](https://github.com/sydundar/BenchVolt-PD/releases/tag/v1.0) and double-click it — no installation required. Windows SmartScreen may warn about an unsigned executable on first run; click "More info" → "Run anyway" to proceed.
 
 ## Building the Windows executable
 
