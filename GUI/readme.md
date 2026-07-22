@@ -11,7 +11,7 @@ and firmware updates via the bootloader protocol.
 Prebuilt executables are attached to the [v1.0 release](https://github.com/sydundar/BenchVolt-PD/releases/tag/v1.0) — no Python install needed:
 
 - 🐧 [BenchVolt-PD-linux.tar.gz](https://github.com/sydundar/BenchVolt-PD/releases/download/v1.0/BenchVolt-PD-linux.tar.gz) — Linux (extract and run)
-- 🪟 [BenchVolt-PD.exe](https://github.com/sydundar/BenchVolt-PD/releases/download/v1.0/BenchVolt-PD.zip) — Windows
+- 🪟 [BenchVolt-PD.exe.zip](https://github.com/sydundar/BenchVolt-PD/releases/download/v1.0/BenchVolt-PD.zip) — Windows
 
 ## Contents
 
